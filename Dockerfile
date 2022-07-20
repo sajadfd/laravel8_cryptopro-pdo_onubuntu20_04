@@ -31,6 +31,7 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone \
 		libsqlite3-dev \
 		build-essential \
 		php-pdo-pgsql \
+		php-pgsql \
 		libpq-dev \
 		openssl \
 		gcc \
